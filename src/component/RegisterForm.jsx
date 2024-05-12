@@ -1,4 +1,3 @@
-// src/components/RegisterForm.js
 import React, { useState } from 'react';
 
 const RegisterForm = ({ onRegister }) => {
@@ -7,7 +6,6 @@ const RegisterForm = ({ onRegister }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Call register API with email and password
     onRegister({ email, password });
   };
 

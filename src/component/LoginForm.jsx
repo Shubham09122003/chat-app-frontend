@@ -1,4 +1,3 @@
-// src/components/LoginForm.js
 import React, { useState } from 'react';
 
 const LoginForm = ({ onLogin }) => {
@@ -7,7 +6,6 @@ const LoginForm = ({ onLogin }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Call login API with email and password
     onLogin({ email, password });
   };
 
